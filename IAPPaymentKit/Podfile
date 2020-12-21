@@ -1,0 +1,17 @@
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
+target 'IAPPaymentKit' do
+
+  
+  pod 'Moya/RxSwift'
+  pod 'RxCocoa', '~> 5.1.1'
+  pod 'RxBlocking', '~> 5.1.1'
+  pod 'HandyJSON', '~> 5.0.2-beta'
+  
+  
+  pod 'SwiftyUserDefaults', '~> 5.0'
+
+
+end
+
